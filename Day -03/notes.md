@@ -5,14 +5,14 @@
 ## 1. How to Use Local Image or File in Anchor and Image Tag
 
 - Local files can be used in anchor (`<a>`) and image (`<img>`) tags.
-- Place the files (e.g., images, PDFs) in the **same folder** or **subfolder** as your HTML file.
+- Place the files (ex images, PDFs) in the **same folder** or **subfolder** as your HTML file.
 - Use **relative paths** to reference those files in your HTML.
 
 ---
 
 ## 2. Absolute Path vs Relative Path
 
-###  Absolute Path
+### Absolute Path
 
 - A path that starts from the **root directory** of the file system.
 - It does **not depend** on where your HTML file is located.
