@@ -5,7 +5,6 @@
 - It defines the **structure** and **content** of a webpage.
 - It uses **tags** like `<h1>`, `<p>`, `<a>`, `<img>`, etc.
 
-
 ---
 
 ### Q2: Why do we use HTML?
@@ -99,8 +98,6 @@ Ye URL sirf **apne browser pe local project dekhne** ke liye hota hai, Internet 
 ---
 
 
-
-
 ## Tag vs Element 
 
 ---
@@ -131,7 +128,7 @@ Hindi:
 
 ---
 
-### ❓ Q1: What is SEO?
+### Q1: What is SEO?
 
 **SEO (Search Engine Optimization)** is the process of optimizing a website to improve its **visibility on search engines** like Google, Bing, etc.
 
@@ -142,14 +139,14 @@ SEO ka matlab hota hai **apne web page ko aise banana ki wo Google me upar aaye*
 
 ### Goal of SEO
 
->  Apni website ki **ranking badhaana**, taaki zyada log dekhein, visit karein aur trust karein.
+>  Apni website ki **ranking badhaana**vtaaki zyada log dekhein visit karein aur trust karein.
 
 ---
 
 
 ###  Q2: Types of SEO
 
-|   Type           | ⚙️ Description                                         |
+|   Type           |   Description                                         |
 |------------------|--------------------------------------------------------|
 |   On-page SEO    | Content, headings, tags, meta, internal links          |
 |   Off-page SEO   | Backlinks, social shares, brand mentions               |
@@ -157,7 +154,7 @@ SEO ka matlab hota hai **apne web page ko aise banana ki wo Google me upar aaye*
 
 ---
 
-### Q3: Real-Life Example
+### Q3:Example
 
 > manlo mera portfolio website ka title agar "Full Stack Developer in India | Vijay Singh" ho,  
 > aur content me keywords ho jaise *JavaScript, React, DSA*, etc.  
@@ -175,48 +172,5 @@ SEO ka matlab hota hai **apne web page ko aise banana ki wo Google me upar aaye*
 
 >  Hindi me:  
 > SEO matlab Google me apne page ko **upar lana** — bina ad ke
-
----
-
-
-
----
-
-## Basic HTML Tags – Definitions Only
-
----
-
-###  `<h1>` to `<h6>` — Heading Tag
-
-Used to define headings in HTML.  
-`<h1>` is the largest, `<h6>` is the smallest.
-
----
-
-### `<p>` — Paragraph Tag
-
-Used to define a paragraph of text.  
-Automatically adds space above and below the text block.
-
----
-
-### `<hr>` — Horizontal Rule
-
-Creates a horizontal line across the page.  
-Used to separate content or sections.
-
----
-
-### `<br>` — Line Break
-
-Inserts a single line break within a block of text.  
-Does not create space like a paragraph.
-
----
-
-### `<pre>` — Preformatted Text
-
-Displays text exactly as written in the HTML file.  
-Preserves spaces, tabs, and line breaks.
 
 ---
