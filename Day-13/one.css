@@ -1,0 +1,73 @@
+/* child property */
+/* p>div{
+  color: royalblue ;
+} */
+/* The color will not change because the div is not a child of p. */
+
+
+
+
+
+/* div>p{
+  color: red ;
+} */
+/* Now it will change because the p is a child of div. */
+/* why is this happening?
+Bcz the child selector only applies to direct children, not descendants.
+para heading and div are block elements so her childern will not be a child of para.
+But it will allow the inline elements like span, a, img etc. */
+/* but yeah you will put anything in div section like heading para etc. */
+/* same as unordered list and ordered list. */
+
+
+
+
+
+                    /*CSS Color */
+/* There are different ways to set color in CSS. */
+h1{
+  /* change by rgb value 0-255*/
+  color: rgb(20, 196, 73);
+}
+
+h2{
+  color: #e31616; /* hex value only 6 character(0-f) */
+}
+
+p{
+  color: hsl(100, 79%, 45%);
+}
+
+
+h3{
+  /* a alpha it shows intensity of color it exists 0 to 1 */
+  color: rgba(103,23, 45, 100);
+}
+
+/* here is also come alpha  */
+h4{
+  /* 6 for hexa character 2 is for alpha  */
+  color: #23acdfff; /* hex value with alpha */
+}
+
+
+
+             /* Background color  */
+h5{
+  color: yellow;
+  background-color:fuchsia;
+}
+
+        /* Body color */
+ /* body{
+  background-color: fuchsia;
+ } */
+ 
+ 
+ /* Image insert */
+ body{
+  background-image: url(./img1.jpg);
+  background-size: cover; /* cover the whole body screen */
+ }
+
+             
