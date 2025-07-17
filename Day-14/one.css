@@ -1,0 +1,17 @@
+h1{
+  /* it means that the text will scale with the viewport width. */
+  font-size:10vw;
+  /* it defines the weight of font  */
+  /* it exists between(100 to 900) */
+  font-weight: 200;
+  font-style: italic;
+
+  /* it is used to make the text appear in small caps  */
+  font-variant: small-caps;
+}
+
+p{
+  line-height: 30px;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+}

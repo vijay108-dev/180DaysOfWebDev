@@ -1,0 +1,61 @@
+             /* Cascading Style Sheets (CSS) */
+/* it defines the actual style of the HTML elements.*/
+/* like it defines the priority of the styles.*/
+
+/* priority id>class>element */
+h1{
+  background-color: blue;
+}
+
+#first_id{
+  background-color:yellow;
+}
+
+.first_class{
+  background-color: fuchsia;
+}
+
+                  /* Order of priority: */
+/*It simply means that if there are multiple styles applied to the same element then the last one will be applied.*/
+ h2{
+  background-color: greenyellow;
+  color: yellowgreen;
+  background-color: fuchsia;
+  color: chartreuse;
+ }        
+
+                  /* Specificity: */
+/*ID selectors >Class/attribute/pseudo-class selectors > Element/pseudo-element selectors> Universal selector. */
+
+/* child and decendent priority same jo neecha aaye  */
+
+/* it specify the priority of the styles applied to the elements.*/
+
+/* id has higher priority than class and element */
+/* id has higher priority than class and element */
+/* class has higher priority than element*/
+/* element has lowest priority*/   
+
+h3{
+  background-color: salmon;
+}         
+
+#second_id{
+  background-color: blueviolet;
+}
+
+                   /* Type */
+/* inline> internal, external in this those who come last give the priority */
+
+
+                  /* Important */
+/* Important is used to give a style the highest priority, overriding all other styles, even inline styles. */
+
+h4{
+  /* it will beat all the styles */
+  background-color: lightcoral !important;
+}
+
+
+
+/* Google font */
