@@ -1,0 +1,21 @@
+/* CSS is a language used to make websites look better by adding colors, styles, and layout to the content. */
+/* Example Car  */
+
+/* Inline CSS element ke andar direct likhi jati hai internal CSS HTML file ke <style> tag me hoti hai aur external CSS alag file me hoti hai jo HTML se link ki jati hai. */
+
+h1{
+  background-color: aqua;
+}
+ul{
+  background-color: blue;
+}
+
+.first {
+  background-color: yellow;
+  color: blue;
+}
+
+#unique {
+  color: green;
+  font-weight: bold;
+}

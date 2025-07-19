@@ -1,0 +1,17 @@
+
+
+.container {
+  height: 30vw;
+  background-color: fuchsia;
+  border: 5px solid black;
+  padding: 30px;
+  margin: 10px 20px 30px 40px;
+}
+
+div> h2{
+  color: chartreuse;
+}
+.container :hover{
+  background-color: chocolate;
+  color: yellowgreen;
+}

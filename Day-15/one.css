@@ -1,0 +1,35 @@
+h1{
+  background-color: lightgreen;
+  border-width: 2px;
+  border-style:solid;
+/* it is used to make respnsive website and it is used to make the website look good on all devices. */
+  box-sizing: border-box;
+}
+
+ol{
+  background-color: fuchsia;
+
+}
+
+h2{
+background-color: salmon;
+}
+
+p{
+  background-color: aqua;
+  border-style: solid;
+  border-color: black;
+  /* padding means the space inside the border. */
+  padding: 10px;
+  /* margin means the space outside the border.  */
+
+  /* when we have 2 values for border-width, the first value is for the top and bottom, and the second value is for the left and right. */
+  /* when we have 3 values for border-width, the first value is for the top, the second value is for the left and right, and the third value is for the bottom. */
+ border-width: 10px,20px;
+ padding: 20px;
+
+ margin: 20px 10px 30px 40px;
+
+
+} 
+

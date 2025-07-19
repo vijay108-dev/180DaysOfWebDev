@@ -1,0 +1,10 @@
+/* star universal selector hota h  */
+*{
+  background-color: aqua;
+  color: blue;
+}
+
+/* group selector */
+h1,h2,p{
+  background-color: blueviolet;
+}
